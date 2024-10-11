@@ -232,7 +232,7 @@ body{
 
 .abt,
 .contact{
-    color: rgb(99, 99, 99);
+    color: rgb(166, 166, 166);
     font-size: 1.1rem;
     font-weight: 100;
     margin-bottom: 2.575rem;
@@ -243,7 +243,7 @@ body{
 .contact > a,
 .fot-box{
     text-decoration: none;
-    color: rgb(99, 99, 99);
+    color: rgb(166, 166, 166);
 }
 
 .abt > a:hover,
@@ -257,7 +257,6 @@ body{
 }
 
 .fot-box{
-    color: rgb(99, 99, 99);
     font-size: 0.99rem;
     font-weight: 100;
     margin-bottom: 2.575rem;
