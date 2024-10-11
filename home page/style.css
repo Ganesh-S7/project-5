@@ -5,6 +5,10 @@ a.navbar-brand {
     justify-content: start;
    
 }
+:root{
+    --arrow-icon:url("../img/down\ \(1\).png");
+    --sign:url("../img/translate\ \(1\).png");
+}
 
 body{
     background-color: black;
@@ -12,7 +16,7 @@ body{
 
 .bg{
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/bg.jpg') no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/bg.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -200,12 +204,18 @@ body{
 }
 
 #select{
-
+    height: 3rem;
+    width: 7rem;
     margin: 2rem 0 0 0;
-    background: #2525259c;
-    color: white;
     padding: 0.3rem 1rem;
     border-radius: 5px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background:transparent;
+    border-radius: 2px;
+    background: var(--arrow-icon) no-repeat right 15%center/.7rem,
+    var(--sign) no-repeat left 7%center/1rem;
+    appearance: none;
 }
 
 
@@ -306,7 +316,6 @@ responsive design
     #select{
 
         margin: 1.8rem 0 0 0;
-        background: #2525259c;
         color: white;
         padding: 0.2rem 1rem;
         border-radius: 5px;
