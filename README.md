@@ -1,1 +1,1 @@
-NETFLIX Front-end clone using HTML , CSS , JavaScript and API.
+NEXFLIX Front-end clone using HTML , CSS , JavaScript and API.

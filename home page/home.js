@@ -61,7 +61,7 @@ fetch(requests.fecthNetflixOriginals)
 
         const title = document.createElement('h2');
         title.className = 'row-title';
-        title.innerText = 'NETFLIX ORIGINALS';
+        title.innerText = 'NEXFLIX ORIGINALS';
         row.appendChild(title);
 
 
